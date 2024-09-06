@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'shahabned-shop'
+app = 'shahabned-store'
 primary_region = 'ams'
 kill_signal = 'SIGINT'
 kill_timeout = '5s'
@@ -14,7 +14,7 @@ kill_timeout = '5s'
 [build]
 
 [env]
-  DATABASE_URL = 'postgresql://shahabned-shop-db.flycast'
+  DATABASE_URL = 'postgresql://shahabned-store-db.flycast'
   NODE_ENV = 'production'
 
 [http_service]
