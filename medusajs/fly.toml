@@ -14,7 +14,7 @@ kill_timeout = '5s'
 [build]
 
 [env]
-  DATABASE_URL = 'postgresql://shahabned-store-db.flycast'
+DATABASE_URL = "postgresql://sha5b:MacInTosh+-2070@shahabned-store-postgres-db.flycast:5432/postgres"
   NODE_ENV = 'production'
 
 [http_service]
